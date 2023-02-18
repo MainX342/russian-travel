@@ -3,17 +3,25 @@
   justify-content: space-between;
   align-items: end;
   max-width: 1184px;
-  padding: 0 48px 0;
+  padding: 28px 48px 0;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1023px) {
   .header {
-    padding: 0 24px 0;
+    padding: 0 3.125% 0;
   }
 }
 
-@media screen and (max-width:425px) {
+/*
+@media screen and (max-width:1023px) {
   .header {
-    padding: 0 16px 0;
+    padding: 0 calc(24px + (48 - 24)*((100vw — 768px)/(1024 – 768))) 0;
   }
 }
+
+@media screen and (max-width:500px) {
+  .header {
+    padding: 0 calc(16px + (48 - 16)*((100vw — 320px)/(768 – 320))) 0;
+  }
+}
+*/
