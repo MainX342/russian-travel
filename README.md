@@ -19,4 +19,4 @@ TODO:
 
 ---
 ## Сссылка на Github-Pages
-**https://mainx342.github.io/yandex-project/**
+**https://mainx342.github.io/russian-travel/**
