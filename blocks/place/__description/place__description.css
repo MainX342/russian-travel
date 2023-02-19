@@ -3,6 +3,10 @@
   font-size: 18px;
   line-height: 1.63;
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
 }
 
 @media screen and (max-width:1023px) {
@@ -11,7 +15,7 @@
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:320px) {
   .place__description {
     padding: 0 16px 0;
   }
